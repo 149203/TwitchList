@@ -111,7 +111,7 @@ function fetchStreamsFromLive(processDataFromLive) {
    });
 }
 
-function processDataFromLive(dataArr, fetchStreamFromInput) {
+function processDataFromLive(dataArr) {
    let countdown = dataArr.length;
    dataArr.forEach(function (data) {
       let obj = {};

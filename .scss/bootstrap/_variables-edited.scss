@@ -142,7 +142,8 @@ $grid-gutter-width:          1.875rem !default; // 30px
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:     Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+$font-family-sans-serif:     "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-serif:          Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:      Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:           $font-family-sans-serif !default;
@@ -176,12 +177,12 @@ $line-height:                1.5 !default;
 
 $headings-margin-bottom:     ($spacer / 2) !default;
 $headings-font-family:       inherit !default;
-$headings-font-weight:       500 !default;
+$headings-font-weight:       700 !default;
 $headings-line-height:       1.1 !default;
 $headings-color:             inherit !default;
 
 $lead-font-size:             1.25rem !default;
-$lead-font-weight:           300 !default;
+$lead-font-weight:           700 !default;
 
 $text-muted:                  $gray-light !default;
 
@@ -241,7 +242,7 @@ $table-border-color:            $gray-lighter !default;
 
 $btn-padding-x:                  1rem !default;
 $btn-padding-y:                  .375rem !default;
-$btn-font-weight:                normal !default;
+$btn-font-weight:                700 !default;
 
 $btn-primary-color:              #fff !default;
 $btn-primary-bg:                 $brand-primary !default;
